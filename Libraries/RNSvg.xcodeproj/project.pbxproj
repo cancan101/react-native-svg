@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BB4ECF8A1ADEFBC9005D7009 /* libSVGKit-iOS.1.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4ECF851ADEFBBB005D7009 /* libSVGKit-iOS.1.2.0.a */; };
-		BBC9788C1AF1724500AD23F4 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC9788B1AF1724500AD23F4 /* libxml2.2.dylib */; };
 		BBC9788E1AF1725800AD23F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC9788D1AF1725800AD23F4 /* CoreGraphics.framework */; };
 		BBD49E3F1AC8DEF000610F8E /* RNSvg.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD49E3A1AC8DEF000610F8E /* RNSvg.m */; };
 		BBD49E401AC8DEF000610F8E /* RNSvgManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD49E3C1AC8DEF000610F8E /* RNSvgManager.m */; };
@@ -62,7 +61,6 @@
 			files = (
 				BBC9788E1AF1725800AD23F4 /* CoreGraphics.framework in Frameworks */,
 				BB4ECF8A1ADEFBC9005D7009 /* libSVGKit-iOS.1.2.0.a in Frameworks */,
-				BBC9788C1AF1724500AD23F4 /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
