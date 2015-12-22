@@ -7,28 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB4ECF8A1ADEFBC9005D7009 /* libSVGKit-iOS.1.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4ECF851ADEFBBB005D7009 /* libSVGKit-iOS.1.2.0.a */; };
 		BBC9788E1AF1725800AD23F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC9788D1AF1725800AD23F4 /* CoreGraphics.framework */; };
 		BBD49E3F1AC8DEF000610F8E /* RNSvg.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD49E3A1AC8DEF000610F8E /* RNSvg.m */; };
 		BBD49E401AC8DEF000610F8E /* RNSvgManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD49E3C1AC8DEF000610F8E /* RNSvgManager.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BB4ECF841ADEFBBB005D7009 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB4ECF7E1ADEFBBB005D7009 /* SVGKit-iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6639618E16145D0400E58CCA;
-			remoteInfo = "SVGKit-iOS";
-		};
-		BB4ECF861ADEFBBB005D7009 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB4ECF7E1ADEFBBB005D7009 /* SVGKit-iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 55452BF119EC68A200B75A30;
-			remoteInfo = "SVGKit-iOS Tests";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
@@ -44,7 +26,6 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNSvg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNSvg.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB4ECF7E1ADEFBBB005D7009 /* SVGKit-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "SVGKit-iOS.xcodeproj"; path = "SVGKit/SVGKit-iOS.xcodeproj"; sourceTree = "<group>"; };
 		BB4ECF951ADEFD95005D7009 /* logo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = logo.svg; sourceTree = "<group>"; };
 		BBC9788B1AF1724500AD23F4 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/usr/lib/libxml2.2.dylib; sourceTree = "<absolute>"; };
 		BBC9788D1AF1725800AD23F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,7 +41,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBC9788E1AF1725800AD23F4 /* CoreGraphics.framework in Frameworks */,
-				BB4ECF8A1ADEFBC9005D7009 /* libSVGKit-iOS.1.2.0.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,18 +65,8 @@
 				BBD49E3A1AC8DEF000610F8E /* RNSvg.m */,
 				BBD49E3B1AC8DEF000610F8E /* RNSvgManager.h */,
 				BBD49E3C1AC8DEF000610F8E /* RNSvgManager.m */,
-				BB4ECF7E1ADEFBBB005D7009 /* SVGKit-iOS.xcodeproj */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		BB4ECF7F1ADEFBBB005D7009 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BB4ECF851ADEFBBB005D7009 /* libSVGKit-iOS.1.2.0.a */,
-				BB4ECF871ADEFBBB005D7009 /* SVGKit-iOS Tests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,35 +113,12 @@
 			mainGroup = 58B511D21A9E6C8500147676;
 			productRefGroup = 58B511D21A9E6C8500147676;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = BB4ECF7F1ADEFBBB005D7009 /* Products */;
-					ProjectRef = BB4ECF7E1ADEFBBB005D7009 /* SVGKit-iOS.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				58B511DA1A9E6C8500147676 /* RNSvg */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		BB4ECF851ADEFBBB005D7009 /* libSVGKit-iOS.1.2.0.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libSVGKit-iOS.1.2.0.a";
-			remoteRef = BB4ECF841ADEFBBB005D7009 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BB4ECF871ADEFBBB005D7009 /* SVGKit-iOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "SVGKit-iOS Tests.xctest";
-			remoteRef = BB4ECF861ADEFBBB005D7009 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
